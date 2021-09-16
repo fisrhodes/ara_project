@@ -23,3 +23,5 @@ I used :
 - flutter_secure_storage for save and encrypt sensitive data
 - connectivity_plus for check internet connection
 - syncfusion_flutter_gauges for charts
+
+note: I upgrade Flutter version from 2.2.3 to latest version (2.5.0)
