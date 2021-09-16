@@ -72,6 +72,10 @@ class LoginViewModel with ChangeNotifier {
         'password': passwordController.text,
       };
       user = await _authServices.login(data);
+      if (user != null) {
+        emailController.clear();
+        passwordController.clear();
+      }
     } else {
       AppRouter.showSnackBar(SnackBar(
         content: Text('please enter valid email and password !'),
