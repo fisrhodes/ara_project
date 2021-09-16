@@ -29,12 +29,6 @@ class _HomeTabBarState extends State<HomeTabBar>
       unselectedLabelColor: Colors.grey,
       labelColor: AppColors.primaryBlue,
       automaticIndicatorColorAdjustment: true,
-      // indicatorWeight: 150.w,
-
-      onTap: (_) {
-        print(_);
-        // widget.onChaneg?.call(_);
-      },
       labelStyle: TextStyle(
         fontSize: 13.sp,
         fontWeight: FontWeight.w600,
@@ -96,7 +90,7 @@ class _HomeTabsState extends State<HomeTabs>
                     objective: widget.objectives[index],
                   );
                 },
-                itemCount:widget.objectives.length,
+                itemCount: widget.objectives.length,
               ),
               //Customer Perspective
               ListView(),
