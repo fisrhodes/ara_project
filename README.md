@@ -24,4 +24,7 @@ I used :
 - connectivity_plus for check internet connection
 - syncfusion_flutter_gauges for charts
 
-note: I upgrade Flutter version from 2.2.3 to latest version (2.5.0)
+## Notes:
+1. I upgrade Flutter version from 2.2.3 to latest version (2.5.0)
+2. Each screen has its own ViewModel class which is responsible for managing its state and interacts with services classes
+    
