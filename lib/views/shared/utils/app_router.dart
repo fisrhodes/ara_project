@@ -68,6 +68,15 @@ class AppRouter {
   static void showSnackBar(SnackBar snackBar) {
     ScaffoldMessenger.of(dialogContext).showSnackBar(snackBar);
   }
+
+  static showNoInternetMessage() {
+    AppRouter.showSnackBar(
+      SnackBar(
+        content: Text('No internet connection !'),
+        backgroundColor: Colors.red,
+      ),
+    );
+  }
 }
 
 class AppRoutes {

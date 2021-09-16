@@ -1,5 +1,5 @@
-import 'package:connectivity_plus/connectivity_plus.dart';
 
+import 'package:connectivity_plus/connectivity_plus.dart';
 Future<bool> checkInternetConnection() async {
   final connectivity = Connectivity();
   var connectionResult = await connectivity.checkConnectivity();

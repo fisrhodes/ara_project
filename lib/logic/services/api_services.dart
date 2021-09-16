@@ -55,12 +55,7 @@ class ApiServices {
         return null;
       }
     } else {
-      AppRouter.showSnackBar(
-        SnackBar(
-          content: Text('No internet connection'),
-          backgroundColor: Colors.red,
-        ),
-      );
+      AppRouter.showNoInternetMessage();
       return null;
     }
   }

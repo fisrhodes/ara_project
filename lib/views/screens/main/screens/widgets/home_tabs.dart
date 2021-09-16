@@ -1,10 +1,9 @@
-import 'package:ara_vnext/logic/data/dummy_data.dart';
 import 'package:ara_vnext/logic/models/home_data.dart';
 import 'package:ara_vnext/views/shared/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../home_screen.dart';
+import './objective_card.dart';
 
 //Home Widget
 class HomeTabBar extends StatefulWidget {
@@ -93,8 +92,7 @@ class _HomeTabsState extends State<HomeTabs>
                   vertical: 15.5.h,
                 ),
                 itemBuilder: (context, index) {
-                  return HomeCard(
-                    cardData: financialPerspective[index],
+                  return ObjectiveCard(
                     objective: widget.objectives[index],
                   );
                 },

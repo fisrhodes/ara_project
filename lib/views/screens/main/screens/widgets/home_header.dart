@@ -2,10 +2,10 @@ import 'package:ara_vnext/locator.dart';
 import 'package:ara_vnext/logic/services/api_services.dart';
 import 'package:ara_vnext/logic/services/storage_services.dart';
 import 'package:ara_vnext/views/shared/utils/app_colors.dart';
+import 'package:ara_vnext/views/shared/widgets/icon_with_badge.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../home_screen.dart';
 
 //Home Widget
 class HomeHeader extends StatelessWidget {

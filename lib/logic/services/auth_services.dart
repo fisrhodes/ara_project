@@ -23,6 +23,7 @@ class AuthServices {
 
   Future<UserData> login(Map<String, dynamic> data) async {
     bool isConnected = await checkInternetConnection();
+    print(isConnected);
     if (isConnected) {
       user = null;
       try {
@@ -50,12 +51,14 @@ class AuthServices {
       }
       return user;
     } else {
-      AppRouter.showSnackBar(
-        SnackBar(
-          content: Text('No internet connection'),
-          backgroundColor: Colors.red,
-        ),
-      );
+      // showNoInternetMessage();
+      AppRouter.showNoInternetMessage();
+      // AppRouter.showSnackBar(
+      //   SnackBar(
+      //     content: Text('No internet connection'),
+      //     backgroundColor: Colors.red,
+      //   ),
+      // );
       return null;
     }
   }
