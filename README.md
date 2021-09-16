@@ -27,4 +27,6 @@ I used :
 ## Notes:
 1. I upgrade Flutter version from 2.2.3 to latest version (2.5.0)
 2. Each screen has its own ViewModel class which is responsible for managing its state and interacts with services classes
+3. I use The Generated route approach that was recommended by the flutter team for navigating between screens
+
     
