@@ -29,5 +29,8 @@ I used :
 2. Each screen has its own ViewModel class which is responsible for managing its state and interacts with services classes
 3. I use The Generated route approach that was recommended by the flutter team for navigating between screens
 4. utils folder inside shared folder contains colors and images constants
+5. use username= "test_action_owner@emaratech.ae" &
+     password "$2b$10$0cKFD3AYtposSIvMnDwlOuO38FE6dqQ8b.aUs5Ug4mqK8Mt1IHOoS"
+     for login
 
     
