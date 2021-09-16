@@ -9,5 +9,5 @@ class AppScreen {
     return ScreenUtil().setWidth(width);
   }
 
-  // static 
+  
 }

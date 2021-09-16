@@ -2,7 +2,6 @@ import 'package:ara_vnext/views/shared/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-
 //Global Widget
 class LinearIndecator extends StatelessWidget {
   final num value, minValue, maxValue;
@@ -31,7 +30,6 @@ class LinearIndecator extends StatelessWidget {
               thumbColor: Colors.orange,
               inactiveTrackColor: Colors.orange.shade100,
               activeTrackColor: Colors.orange,
-              // minThumbSeparation: 1,
               trackHeight: 10,
               minThumbSeparation: 10,
               thumbShape: CustomShape(),

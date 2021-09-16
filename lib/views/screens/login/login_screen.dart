@@ -52,11 +52,7 @@ class LoginScreen extends StatelessWidget {
                 ],
               ),
             ),
-            // Consumer<LoginViewModel>(
-            // builder: (context, model, child) {
             LoginForm(),
-            // },
-            // ),
           ],
         ),
       ),

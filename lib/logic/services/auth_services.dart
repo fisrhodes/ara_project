@@ -51,14 +51,7 @@ class AuthServices {
       }
       return user;
     } else {
-      // showNoInternetMessage();
       AppRouter.showNoInternetMessage();
-      // AppRouter.showSnackBar(
-      //   SnackBar(
-      //     content: Text('No internet connection'),
-      //     backgroundColor: Colors.red,
-      //   ),
-      // );
       return null;
     }
   }

@@ -2,14 +2,13 @@ import 'package:ara_vnext/logic/models/home_data.dart';
 import 'package:ara_vnext/views/shared/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
 //Home Widget
 class ObjectiveCard extends StatelessWidget {
-  // final HomeCardData cardData;
   final Objective objective;
 
   const ObjectiveCard({
     Key key,
-    // @required this.cardData,
     @required this.objective,
   }) : super(key: key);
 
@@ -43,7 +42,7 @@ class ObjectiveCard extends StatelessWidget {
                 ),
               ),
               Visibility(
-                visible:  false,
+                visible: false,
                 child: Icon(
                   Icons.warning_amber,
                   color: Colors.red,

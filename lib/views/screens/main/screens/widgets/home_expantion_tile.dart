@@ -6,7 +6,6 @@ import 'package:ara_vnext/views/shared/widgets/linear_indecaror.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-
 //Home Widget
 class HomeExpandedTile extends StatelessWidget {
   final HomeData homeData;
@@ -102,7 +101,6 @@ class HomeExpandedTile extends StatelessWidget {
                       'Status',
                       style: titleStyle,
                     ),
-                    // Text('timeline'),
                     Row(
                       children: [
                         CircleAvatar(
